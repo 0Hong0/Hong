@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Blog &#8211; Hong</title>
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="Hong &raquo; Feed" href="http://localhost/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Hong &raquo; Feed" href="./feed/" />
     <link rel="alternate" type="application/rss+xml" title="Hong &raquo; 评论Feed"
-        href="http://localhost/comments/feed/" />
+        href="./comments/feed/" />
     <script>document.documentElement.classList.remove('no-js');</script>
     <script>
         window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/localhost\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2" } };
@@ -29,8 +29,13 @@
             padding: 0 !important;
         }
     </style>
+    <link rel='stylesheet' id='wsp-main-style-css' href='./css/wp-smart-preloader-assets-css-wsp-front-preloader.css'
+        media='all' />
+    <link rel='stylesheet' id='wsp-style-css' href='./css/wp-smart-preloader-assets-css-wsp-smart-preload-style.css'
+        media='all' />
     <link rel='stylesheet' id='wp-block-library-css' href='./css/dist-block-library-style.min.css' media='all' />
-    <link rel='stylesheet' id='classic-theme-styles-css' href='./css/eij-classic-themes.min.css' media='all' />
+    <link rel='stylesheet' id='agl-css' href='./css/animategl-css-animategl.css' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='./css/0p0-classic-themes.min.css' media='all' />
     <style id='global-styles-inline-css'>
         body {
             --wp--preset--color--black: #000000;
@@ -1425,17 +1430,32 @@
     <script>
         /* <![CDATA[ */
         var rcewpp = {
-            "ajax_url": "http://localhost/wp-admin/admin-ajax.php",
-            "nonce": "d413e2a98b",
-            "home_url": "http://localhost/",
-            "settings_icon": 'http://localhost/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings.png',
-            "settings_hover_icon": 'http://localhost/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings_hover.png'
+            "ajax_url": "./wp-admin/admin-ajax.php",
+            "nonce": "6c24f7ddcb",
+            "home_url": "./",
+            "settings_icon": './wp-content/plugins/export-wp-page-to-static-html/admin/images/settings.png',
+            "settings_hover_icon": './wp-content/plugins/export-wp-page-to-static-html/admin/images/settings_hover.png'
         };
             /* ]]\> */
     </script>
-    <link rel="https://api.w.org/" href="http://localhost/wp-json/" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/wp-includes/wlwmanifest.xml" />
+    <script src='./js/jquery-jquery.min.js' id='jquery-core-js'></script>
+    <script src='./js/jquery-jquery-migrate.min.js' id='jquery-migrate-js'></script>
+    <script id='wsp-main-script-js-extra'>
+        var wsp_obj = { "loader": "Loader 3", "custom_animation": "", "custom_css": ".smart-loader-three span {\r\n    background: gray;\r\n}\r\n@keyframes spinner-three{\r\n0% {\r\n    height: 5px;\r\n    transform: translateY(0px);\r\n    background: #949494;\r\n}\r\n25% {\r\n    height: 30px;\r\n    transform: translateY(15px);\r\n    background: #fff;\r\n}\r\n50% {\r\n    height: 5px;\r\n    transform: translateY(0px);\r\n    background: #949494;\r\n}\r\n100% {\r\n    height: 5px;\r\n    transform: translateY(0px);\r\n    background: #949494;\r\n}\r\n}", "delay": "0", "fadeout": "1000" };
+    </script>
+    <script src='./js/wp-smart-preloader-assets-js-wsp-main-script.js' id='wsp-main-script-js'></script>
+    <script id='agl-js-extra'>
+        var agl_nonce = ["37459199d0"];
+    </script>
+    <script src='./js/animategl-js-lib-animategl.min.js' id='agl-js'></script>
+    <script id='agl-embed-js-extra'>
+        var agl_options = [""];
+        var agl_options = ["", "http:\/\/localhost\/wp-content\/plugins\/animategl\/", "http:\/\/localhost\/wp-admin\/admin-ajax.php"];
+    </script>
+    <script src='./js/animategl-js-embed.js' id='agl-embed-js'></script>
+    <link rel="https://api.w.org/" href="./wp-json/" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.2.2" />
     <link rel='stylesheet' id='kadence-fonts-css'
         href='https://fonts.googleapis.com/css?family=Roboto:300,700,500,regular%7CQuestrial:regular%7CMontserrat:500,regular&#038;display=swap'
@@ -1443,7 +1463,7 @@
 </head>
 
 <body
-    class="blog wp-custom-logo wp-embed-responsive hfeed footer-on-bottom hide-focus-outline link-style-standard content-title-style-above content-width-normal content-style-boxed content-vertical-padding-show non-transparent-header mobile-non-transparent-header">
+    class="blog wp-custom-logo wp-embed-responsive wp-smart-body hfeed footer-on-bottom hide-focus-outline link-style-standard content-title-style-above content-width-normal content-style-boxed content-vertical-padding-show non-transparent-header mobile-non-transparent-header">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none"
         style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
         <defs>
@@ -1611,10 +1631,11 @@
                                                                     <a href="./our-portfolio.html">Our
                                                                         Portfolio</a></li>
                                                                 <li id="menu-item-675"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item current_page_item menu-item-675">
-                                                                    <a href="./blog.html" aria-current="page">Blog</a></li>
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-43 current_page_item current_page_parent menu-item-675">
+                                                                    <a href="./blog.html" aria-current="page">Blog</a>
+                                                                </li>
                                                                 <li id="menu-item-343"
-                                                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-343">
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-343">
                                                                     <a href="#"><span
                                                                             class="nav-drop-title-wrap">Pages<span
                                                                                 class="dropdown-nav-toggle"><span
@@ -1638,12 +1659,11 @@
                                                                                 Services</a></li>
                                                                         <li id="menu-item-349"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349">
-                                                                            <a href="./our-clients.html">Our Clients</a>
-                                                                        </li>
+                                                                            <a href="./our-clients.html">Our
+                                                                                Clients</a></li>
                                                                         <li id="menu-item-348"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348">
-                                                                            <a href="./faq.html"
-                                                                                aria-current="page">FAQ</a></li>
+                                                                            <a href="./faq.html">FAQ</a></li>
                                                                     </ul>
                                                                 </li>
                                                                 <li id="menu-item-346"
@@ -1784,18 +1804,18 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/uncategorized/" rel="tag">未分类</a>
+                                                    href="./category/uncategorized/" rel="tag">未分类</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2023/08/07/hello-world/"
+                                        <h2 class="entry-title"><a href="./2023/08/07/hello-world/"
                                                 rel="bookmark">世界，您好！</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
-                                        <p>。这是&#8230;</p>
+                                        <p>欢迎使用WordPress。这是&#8230;</p>
                                     </div><!-- .entry-summary -->
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2023/08/07/hello-world/"
+                                                    href="./2023/08/07/hello-world/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text">
                                                         世界，您好！</span><span class="kadence-svg-iconset svg-baseline"><svg
                                                             aria-hidden="true"
@@ -1815,7 +1835,7 @@
                             <article
                                 class="entry content-bg loop-entry post-246 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/digital-experience/">
+                                    href="./2021/11/03/digital-experience/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-cottonbro-4098180-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -1827,10 +1847,10 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
                                         <h2 class="entry-title"><a
-                                                href="http://localhost/2021/11/03/digital-experience/"
+                                                href="./2021/11/03/digital-experience/"
                                                 rel="bookmark">Digital experience</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -1839,7 +1859,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/digital-experience/"
+                                                    href="./2021/11/03/digital-experience/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text">
                                                         Digital experience</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -1859,7 +1879,7 @@
                             <article
                                 class="entry content-bg loop-entry post-245 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/global-influence/">
+                                    href="./2021/11/03/global-influence/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-karolina-grabowska-4203073-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -1871,9 +1891,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/global-influence/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/global-influence/"
                                                 rel="bookmark">Global influence</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -1882,7 +1902,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/global-influence/"
+                                                    href="./2021/11/03/global-influence/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text"> Global
                                                         influence</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -1902,7 +1922,7 @@
                             <article
                                 class="entry content-bg loop-entry post-244 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/4-modern-bathtubs/">
+                                    href="./2021/11/03/4-modern-bathtubs/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-ivan-samkov-4240545-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -1914,9 +1934,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/4-modern-bathtubs/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/4-modern-bathtubs/"
                                                 rel="bookmark">4 Modern bathtubs</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -1925,7 +1945,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/4-modern-bathtubs/"
+                                                    href="./2021/11/03/4-modern-bathtubs/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text"> 4
                                                         Modern bathtubs</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -1945,7 +1965,7 @@
                             <article
                                 class="entry content-bg loop-entry post-243 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/comfy-stylish/">
+                                    href="./2021/11/03/comfy-stylish/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-max-vakhtbovych-6480211-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -1957,9 +1977,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/comfy-stylish/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/comfy-stylish/"
                                                 rel="bookmark">Comfy &amp; Stylish</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -1968,7 +1988,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/comfy-stylish/"
+                                                    href="./2021/11/03/comfy-stylish/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text"> Comfy
                                                         &amp; Stylish</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -1988,7 +2008,7 @@
                             <article
                                 class="entry content-bg loop-entry post-242 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/best-design-here/">
+                                    href="./2021/11/03/best-design-here/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-max-vakhtbovych-6758514-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -2000,9 +2020,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/best-design-here/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/best-design-here/"
                                                 rel="bookmark">Best design here</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -2011,7 +2031,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/best-design-here/"
+                                                    href="./2021/11/03/best-design-here/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text"> Best
                                                         design here</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -2031,7 +2051,7 @@
                             <article
                                 class="entry content-bg loop-entry post-241 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/virtual-dreamtime/">
+                                    href="./2021/11/03/virtual-dreamtime/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-max-vakhtbovych-6782366-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -2043,9 +2063,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/virtual-dreamtime/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/virtual-dreamtime/"
                                                 rel="bookmark">Virtual dreamtime</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -2054,7 +2074,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/virtual-dreamtime/"
+                                                    href="./2021/11/03/virtual-dreamtime/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text">
                                                         Virtual dreamtime</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -2074,7 +2094,7 @@
                             <article
                                 class="entry content-bg loop-entry post-240 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/success-groove/">
+                                    href="./2021/11/03/success-groove/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-max-vakhtbovych-6890404-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -2086,9 +2106,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/success-groove/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/success-groove/"
                                                 rel="bookmark">Success groove</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -2097,7 +2117,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/success-groove/"
+                                                    href="./2021/11/03/success-groove/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text">
                                                         Success groove</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -2117,7 +2137,7 @@
                             <article
                                 class="entry content-bg loop-entry post-239 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/the-joy-of-art/">
+                                    href="./2021/11/03/the-joy-of-art/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-max-vakhtbovych-7533841-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -2129,9 +2149,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/the-joy-of-art/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/the-joy-of-art/"
                                                 rel="bookmark">The joy of art</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -2140,7 +2160,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/the-joy-of-art/"
+                                                    href="./2021/11/03/the-joy-of-art/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text"> The
                                                         joy of art</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -2160,7 +2180,7 @@
                             <article
                                 class="entry content-bg loop-entry post-238 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
                                 <a class="post-thumbnail kadence-thumbnail-ratio-2-3"
-                                    href="http://localhost/2021/11/03/passion-work/">
+                                    href="./2021/11/03/passion-work/">
                                     <div class="post-thumbnail-inner"> <img width="768" height="513"
                                             src="./images/2021-11-pexels-teona-swift-6850606-768x513.jpg"
                                             class="attachment-medium_large size-medium_large wp-post-image"
@@ -2172,9 +2192,9 @@
                                     <header class="entry-header">
                                         <div class="entry-taxonomies"> <span
                                                 class="category-links term-links category-style-normal"> <a
-                                                    href="http://localhost/category/design/" rel="tag">Design</a>
+                                                    href="./category/design/" rel="tag">Design</a>
                                             </span> </div><!-- .entry-taxonomies -->
-                                        <h2 class="entry-title"><a href="http://localhost/2021/11/03/passion-work/"
+                                        <h2 class="entry-title"><a href="./2021/11/03/passion-work/"
                                                 rel="bookmark">Passion &amp; work</a></h2>
                                     </header><!-- .entry-header -->
                                     <div class="entry-summary">
@@ -2183,7 +2203,7 @@
                                     <footer class="entry-footer">
                                         <div class="entry-actions">
                                             <p class="more-link-wrap"> <a
-                                                    href="http://localhost/2021/11/03/passion-work/"
+                                                    href="./2021/11/03/passion-work/"
                                                     class="post-more-link"> 阅读更多<span class="screen-reader-text">
                                                         Passion &amp; work</span><span
                                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
@@ -2204,8 +2224,8 @@
                         <nav class="navigation pagination" aria-label="页面导航">
                             <h2 class="screen-reader-text">页面导航</h2>
                             <div class="nav-links"><span aria-current="page" class="page-numbers current">1</span> <a
-                                    class="page-numbers" href="http://localhost/blog/page/2/">2</a> <a
-                                    class="next page-numbers" href="http://localhost/blog/page/2/"><span
+                                    class="page-numbers" href="./blog/page/2/">2</a> <a
+                                    class="next page-numbers" href="./blog/page/2/"><span
                                         class="screen-reader-text">下一页</span><span
                                         class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true"
                                             class="kadence-svg-icon kadence-arrow-right-svg" fill="currentColor"
@@ -2278,7 +2298,7 @@
                                         <div class="footer-widget-area-inner site-info-inner">
                                             <div class="footer-html inner-link-style-normal">
                                                 <div class="footer-html-inner">
-                                                    <p>&copy; Hong: ALL right reserves</p>
+                                                    <p>Hong:All right reserves</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -2291,6 +2311,37 @@
             </div>
         </footer><!-- #colophon -->
     </div><!-- #wrapper -->
+    <style type="text/css" media="all">
+        .smart-loader-three span {
+            background: gray;
+        }
+
+        @keyframes spinner-three {
+            0% {
+                height: 5px;
+                transform: translateY(0px);
+                background: #949494;
+            }
+
+            25% {
+                height: 30px;
+                transform: translateY(15px);
+                background: #fff;
+            }
+
+            50% {
+                height: 5px;
+                transform: translateY(0px);
+                background: #949494;
+            }
+
+            100% {
+                height: 5px;
+                transform: translateY(0px);
+                background: #949494;
+            }
+        }
+    </style>
     <script>document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px');</script>
     <div id="mobile-drawer"
         class="popup-drawer popup-drawer-layout-sidepanel popup-drawer-animation-fade popup-drawer-side-right"
@@ -2310,14 +2361,15 @@
                         <div class="mobile-menu-container drawer-menu-container">
                             <ul id="mobile-menu" class="menu has-collapse-sub-nav">
                                 <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-340 current_page_item menu-item-341">
-                                    <a href="./index.html" aria-current="page">Home</a></li>
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-341">
+                                    <a href="./index.html">Home</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a
                                         href="./about.html">About</a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347"><a
                                         href="./our-portfolio.html">Our Portfolio</a></li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-675"><a
-                                        href="./blog.html">Blog</a></li>
+                                <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-43 current_page_item current_page_parent menu-item-675">
+                                    <a href="./blog.html" aria-current="page">Blog</a></li>
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-343">
                                     <div class="drawer-nav-drop-wrap"><a href="#">Pages</a><button
